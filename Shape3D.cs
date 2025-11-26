@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LabWork
 {
@@ -17,7 +13,6 @@ namespace LabWork
         public double B2 => _b2;
         public double B3 => _b3;
 
-        // Конструктор, який ініціалізує спільні параметри
         public Shape3D(double x1, double x2, double x3, double b1, double b2, double b3)
         {
             this._x1 = x1;
@@ -44,7 +39,6 @@ namespace LabWork
             _b3 = GetDoubleInput("Enter B3 (Center Z) >>> ");
         }
 
-        // Protected допоміжні методи для вводу (доступні всім похідним)
         protected double GetDoubleInput(string prompt)
         {
             Console.WriteLine(prompt);

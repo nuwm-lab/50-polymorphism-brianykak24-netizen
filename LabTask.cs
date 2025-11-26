@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LabWork
 {
@@ -31,13 +27,13 @@ namespace LabWork
                 switch (choice)
                 {
                     case 1:
-                        Ellipsoid ellipsoid = new Ellipsoid(); // Створюємо тільки якщо вибрано
+                        Ellipsoid ellipsoid = new Ellipsoid(); 
                         ellipsoid.FillData();
                         Console.WriteLine(ellipsoid.ToString());
                         Console.WriteLine($"Volume of Ellipsoid: {ellipsoid.GetVolume()}");
                         break;
                     case 2:
-                        Sphere sphere = new Sphere(); // Створюємо тільки якщо вибрано
+                        Sphere sphere = new Sphere(); 
                         sphere.FillData();
                         Console.WriteLine(sphere.ToString());
                         Console.WriteLine($"Volume of Sphere: {sphere.GetVolume()}");

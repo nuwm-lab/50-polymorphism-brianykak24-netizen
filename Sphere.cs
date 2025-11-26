@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LabWork
 {
@@ -19,7 +15,7 @@ namespace LabWork
         }
 
 
-        public Sphere() : this(0, 0, 0, 0, 0, 0, 1) { } // Дефолтна сфера
+        public Sphere() : this(0, 0, 0, 0, 0, 0, 1) { } 
 
         public override double GetVolume()
         {
